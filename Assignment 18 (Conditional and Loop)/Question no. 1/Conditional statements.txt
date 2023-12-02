@@ -1,0 +1,48 @@
+Conditional statements in JavaScript are used to make decisions in your code based on whether a certain condition is true or false. The most common types of conditional statements in JavaScript are:
+
+1. if statement:
+	if (condition) {
+    // Code to be executed if the condition is true
+	}
+ Example :
+ let x = 10;
+	if (x > 5) {
+    	console.log("x is greater than 5");
+	}
+
+2. if-else statement:
+	Syntax:
+	if (condition) {
+    // Code to be executed if the condition is true
+	} else {
+    // Code to be executed if the condition is false
+	}
+
+Example : 
+	let x = 3;
+	if (x > 5) {
+    console.log("x is greater than 5");
+	} 
+	else {
+    console.log("x is not greater than 5");
+	}
+
+3. if-else if-else statement:
+	Syntax : 
+	let x = 5;
+
+	if (x > 5) {
+    console.log("x is greater than 5");
+	}
+	else if (x < 5) {
+    console.log("x is less than 5");
+	} 
+	else {
+    console.log("x is equal to 5");
+	}
+
+
+
+
+
+
